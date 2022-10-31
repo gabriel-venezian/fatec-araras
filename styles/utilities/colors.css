@@ -1,0 +1,27 @@
+:root {
+  --clr-red: #A3130D;
+  --clr-primary-white: #F8F8F8;
+  --clr-full-white: #fff;
+  --clr-background-white: #FDFDFD;
+  --clr-primary-gray: #595959;
+}
+
+.clr-red {
+  color: var(--clr-red);
+}
+
+.clr-primary-white {
+  color: var(--clr-primary-white);
+}
+
+.clr-full-white {
+  color: var(--clr-full-white);
+}
+
+.clr-background-white {
+  color: var(--clr-background-white);
+}
+
+.clr-primary-gray {
+  color: var(--clr-primary-gray);
+}

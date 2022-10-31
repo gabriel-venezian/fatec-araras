@@ -1,0 +1,23 @@
+.fatec-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--clr-red);
+  height: 5rem;
+  padding-inline: 2rem;
+}
+
+.fatec-menu-option {
+  height: 8rem;
+  border-bottom: .1rem solid #E6E6E6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2.5rem 0 2rem;
+}
+
+.fatec-menu-option-icon-title {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
