@@ -1,0 +1,91 @@
+body {
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    background: #F8F8F8;
+}
+
+h1 {
+    text-align: center;
+}
+
+.calendar {
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 23%;
+    left: 47px;
+    top: 40px;
+}
+
+table {
+    flex-direction: column;
+    width: 80%;
+    text-align: center;
+    align-content: center;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    margin: 1%;
+    padding: 4px;
+    border: 1px solid black;
+}
+
+tfoot {
+    width: 90%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.aviso {
+    color: #F8F8F8;
+    background: #A3130D;
+}
+
+h4 {
+    text-align: center;
+}
+
+#janeiro12 {
+    display: none;
+}
+
+#fevereiro10 {
+    display: none;
+}
+
+#ferias {
+    display: none;
+}
+
+#d_isencao {
+    display: none;
+}
+
+#c_isencao {
+    display: none;
+}
+
+#divulgacao {
+    display: none;
+}
+
+#fimAno {
+    display: none;
+}
+
+.sun {
+    color: red;
+    background-color: rgb(187, 179, 179);
+    font-weight: bolder;
+}
+
+.aborder {
+    border: none;
+}
